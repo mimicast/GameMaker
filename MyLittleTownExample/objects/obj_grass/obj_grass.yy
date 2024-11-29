@@ -9,10 +9,7 @@
     "name":"Town",
     "path":"folders/Objects/Town.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bush",
-    "path":"objects/obj_bush/obj_bush.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

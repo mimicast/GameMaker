@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_parent_npc",
@@ -29,6 +30,23 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"loopRange01","filters":[],"listItems":[],"multiselect":false,"name":"loopRange01","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"loopRange02","filters":[],"listItems":[],"multiselect":false,"name":"loopRange02","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"my_text","filters":[],"listItems":[],"multiselect":false,"name":"my_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Why, hello there!\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"my_item","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"my_item","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"item_text_happy","filters":[],"listItems":[],"multiselect":false,"name":"item_text_happy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Text for the right item\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"item_text_sad","filters":[],"listItems":[],"multiselect":false,"name":"item_text_sad","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Text for the wrong item\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"item_text_done","filters":[],"listItems":[],"multiselect":false,"name":"item_text_done","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Thank you text\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"sequence_happy","filters":[
+        "GMSequence",
+      ],"listItems":[],"multiselect":false,"name":"sequence_happy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sequence_sad","filters":[
+        "GMSequence",
+      ],"listItems":[],"multiselect":false,"name":"sequence_sad","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"my_state","filters":[],"listItems":[],"multiselect":false,"name":"my_state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"NPC_STATE.NORMAL","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"done_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"done_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

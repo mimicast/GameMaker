@@ -2,6 +2,7 @@
 
 // Emiter variables
 my_emitter = 0;
+vol_init = 1;
 
 // Create audio emitter, store its ID and set the emiter up
 if (useSound != noone) {
@@ -10,6 +11,7 @@ if (useSound != noone) {
 		audio_emitter_position(my_emitter, x, y, 0);
 		audio_falloff_set_model(audio_falloff_exponent_distance);
 		audio_emitter_falloff(my_emitter, fallStart, maxDist, 1);
+		vol_init = audio_sound_get_gain(useSound)
 		audio_play_sound_on(my_emitter, useSound, 1, 1);
 	}
 }
